@@ -864,19 +864,8 @@ checksum = "af150ab688ff2122fcef229be89cb50dd66af9e01a4ff320cc137eecc9bacc38"
 name = "japanese-style-garden-nannou"
 version = "0.1.0"
 dependencies = [
- "jen_rx",
  "nannou",
- "nannou_osc",
  "rand 0.8.5",
-]
-
-[[package]]
-name = "jen_rx"
-version = "0.1.0"
-source = "git+https://github.com/mitchmindtree/jen_rx?branch=master#74d248d3699be44c264a0c226bbb0461bb2f967b"
-dependencies = [
- "nannou",
- "nannou_osc",
 ]
 
 [[package]]
@@ -1214,15 +1203,6 @@ checksum = "da3ceb90554c048fb5f29a19820d3581d4fb85fe22e6f27d21faca0dbfab5e07"
 dependencies = [
  "nannou_core",
  "serde",
-]
-
-[[package]]
-name = "nannou_osc"
-version = "0.18.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9995e9e5af9e50a05aa056f261e1ebb27b46409f1ff3bb219a0a2277574785c"
-dependencies = [
- "rosc",
 ]
 
 [[package]]
@@ -1739,15 +1719,6 @@ name = "renderdoc-sys"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f1382d1f0a252c4bf97dc20d979a2fdd05b024acd7c2ed0f7595d7817666a157"
-
-[[package]]
-name = "rosc"
-version = "0.1.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39332ba44e0804497d958f692a3fbb7dd993cc996070189f40577de87ff1b8d9"
-dependencies = [
- "byteorder",
-]
 
 [[package]]
 name = "rustc-hash"
