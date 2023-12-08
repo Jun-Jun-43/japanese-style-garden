@@ -7,6 +7,5 @@ edition = "2021"
 
 [dependencies]
 nannou = "0.18.0"
-nannou_osc = "0.18"
-jen_rx = { git = "https://github.com/mitchmindtree/jen_rx", branch = "master" }
 rand = "0.8.5"
+derive_more = "0.99.17"
