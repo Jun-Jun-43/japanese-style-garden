@@ -42,7 +42,7 @@ fn model(app: &App) -> Model {
 
     let alpha = 0.0;
 
-    let unohana = hsla(60.0 / 360.0, 0.3846, 0.9745, alpha);
+    let unohana = hsla(60.0 / 360.0, 0.3846, 0.9745, 1.0);
     let usuzumi = hsla(60.0 / 360.0, 0.0054, 0.6373, alpha);
     let moegi = hsla(79.11 / 360.0, 0.7441, 0.4137, alpha);
     let karakurenai = hsla(347.18 / 360.0, 1.0, 0.4588, alpha);
